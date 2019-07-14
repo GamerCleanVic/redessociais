@@ -19,7 +19,7 @@ Doações Web
       
       
    <p align="center"><a href="https://gamercleanvic.github.io/donations/" alt="DOAÇÃO"
-target="_blank"><button onclick="myFunction()">CLIQUE PARA DOAR</button></a></p>
+ target="_blank"><button onclick="myFunction()">CLIQUE PARA DOAR</button></a></p>
 
  </body>   
 
