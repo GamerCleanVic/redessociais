@@ -7,9 +7,9 @@ Doações Web
    
 
     
-    <style>
-.button { background-color: #008B8B; /*Verde*/
-/* border: 1px solid #000; */
+
+background-color: #008B8B; /*Verde*/
+
 color: white;
 padding: 15px 38px;
 text-align: center;
@@ -19,8 +19,8 @@ font-size: 16px;
 margin: 4px 2px;
 cursor: pointer;
 border-radius: 10px rgba(0,0,0,0.5);
- }
-</style>
+ 
+
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/GamerCleanVic/donations/gh-pages/LPTV.jpeg" alt="LPTV" height="360" width="720"/><br /><br />
