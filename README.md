@@ -17,7 +17,7 @@ cursor: pointer;
 border-radius: 10px rgba(0,0,0,0.5);
  }
 </style>
-
+</head>
    <body>
 <p align="center"><img src="https://raw.githubusercontent.com/GamerCleanVic/donations/gh-pages/LPTV.jpeg" alt="LPTV" height="360" width="720"/><br /><br />
 
