@@ -43,7 +43,7 @@ table, th, td {
 <table style="width:40%">
   <tr>
     <th>
-<a href="https://google.com" target="_blank"><button type="button">Click Me!</button></a>
+<a href="https://gamercleanvic.github.io/donations/" target="_blank"><button type="button">Click Me!</button></a>
 
 </th>
 </tr>
