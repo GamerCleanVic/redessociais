@@ -27,8 +27,7 @@ Doações Web
 -->
 
 <?php
-<button class="button board-radius:10px #000">BOTÃO</button>
- ?>
+<button class="button board-radius:10px #000">BOTÃO</button> ?>
 
 
 
