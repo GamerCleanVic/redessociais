@@ -26,4 +26,4 @@ Doações Web
 </html>
 -->
 
-<button class="button1" href="google.com">Butao</button>
+<button type="button" href="google.com">Click Me!</button>
