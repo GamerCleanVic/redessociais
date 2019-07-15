@@ -38,7 +38,7 @@ table, th, td {
 </head>
 <body>
 
-
+<!--
 <p align="center">
 <table style="width:40%">
   <tr>
@@ -47,6 +47,6 @@ table, th, td {
 
 </th>
 </tr>
-</p>
+</p> -->
 </body>
 </html>
