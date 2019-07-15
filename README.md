@@ -25,5 +25,6 @@ Doações Web
 
 </html>
 -->
-
+<table>
 <a href="https://google.com" target="_blank"><button type="button">Click Me!</button></a>
+</table>
