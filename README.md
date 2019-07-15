@@ -28,12 +28,12 @@ Doações Web
 
 
 <html>
-<head>
+<head><!--
 <style>
 table, th, td {
   border: 3px solid black;
 }
-</style>
+</style> -->
 
 </head>
 <body>
