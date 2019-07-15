@@ -28,13 +28,16 @@ Doações Web
 
 
 <html>
-<body>
-
+<head>
 <style>
 table, th, td {
-  border: 1px solid black;
+  border: 3px solid black;
 }
 </style>
+
+</head>
+<body>
+
 
 
 <table style="width:40%">
