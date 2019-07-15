@@ -25,6 +25,21 @@ Doações Web
 
 </html>
 -->
-<table>
+
+
+
+
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+
+
+<table style="width:40%">
+  <tr>
+    <th>
 <a href="https://google.com" target="_blank"><button type="button">Click Me!</button></a>
-</table>
+
+</th>
+</tr>
