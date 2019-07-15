@@ -26,10 +26,12 @@ Doações Web
 </html>
 -->
 
+<html>
+<body>
 <?php
 <button class="button board-radius:10px #000">BOTÃO</button> ?>
-
-
+</body>
+</html>
 
 
 
