@@ -28,8 +28,17 @@ Doações Web
 
 <html>
 <body>
-<?php
-<button class="button board-radius:10px #000">BOTÃO</button> ?>
+
+<button onclick="funcaoParaExecutar()">cliqui aqui bode</button>
+
+<script type="text/javascript">
+
+    function funcaoParaExecutar() {
+        alert('tarammmmm!!')
+    }
+
+</script>
+
 </body>
 </html>
 
