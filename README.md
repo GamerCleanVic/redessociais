@@ -26,7 +26,7 @@ Doações Web
 </html>
 -->
 
-<button class="button">BOTÃO</button>
+<button class="button board-radius:10px">BOTÃO</button>
 
 
 
