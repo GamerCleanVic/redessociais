@@ -27,7 +27,8 @@ Doações Web
 -->
 
 
-
+<html>
+<body>
 
 <style>
 table, th, td {
@@ -43,3 +44,5 @@ table, th, td {
 
 </th>
 </tr>
+</body>
+</html>
