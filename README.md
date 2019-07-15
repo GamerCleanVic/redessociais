@@ -26,9 +26,6 @@ Doações Web
 </html>
 -->
 
-<html>
-<body>
-
 <button onclick="funcaoParaExecutar()">cliqui aqui bode</button>
 
 <script type="text/javascript">
@@ -38,9 +35,6 @@ Doações Web
     }
 
 </script>
-
-</body>
-</html>
 
 
 
