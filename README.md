@@ -26,17 +26,4 @@ Doações Web
 </html>
 -->
 
-<button onclick="funcaoParaExecutar()">cliqui aqui bode</button>
-
-<script type="text/javascript">
-
-    function funcaoParaExecutar() {
-        alert('tarammmmm!!')
-    }
-
-</script>
-
-
-
-
-
+<button class="button1" href="google.com">Butao</button>
