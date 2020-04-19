@@ -4,7 +4,7 @@
 </head>
 <body>
 <!-- redirecionar pra qualquer URL -->
-<script> location.href="index.html#inicio"; </script>
-<br /><center><a href="index.html#inicio" title="Home"><b>CONTATOS SOCIAIS E DEMAIS LINKS</b></a></center>
+<script> location.href="donations.html#inicio"; </script>
+<br /><center><a href="donations.html#inicio" title="Home"><b>CONTATOS SOCIAIS E DEMAIS LINKS</b></a></center>
 </body>
 </html>
