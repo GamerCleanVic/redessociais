@@ -4,7 +4,7 @@
 
 
 <!-- redirecionar pra qualquer URL -->
-<script> location.href="/index.html#inicio"; </script>
+<script> location.href="index.html#inicio"; </script>
 
 
 <title></title>
