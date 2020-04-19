@@ -1,15 +1,10 @@
 <html>
 <head>
-
-
-
-<!-- redirecionar pra qualquer URL -->
-<!-- <script> location.href="index.html#inicio"; </script> -->
-
-
 <title>CONTATOS SOCIAIS E DEMAIS LINKS</title>
 </head>
 <body>
+<!-- redirecionar pra qualquer URL -->
+<script> location.href="index.html#inicio"; </script>
 <br /><center><a href="index.html#inicio" title="Home"><b>CONTATOS SOCIAIS E DEMAIS LINKS</b></a></center>
 </body>
 </html>
