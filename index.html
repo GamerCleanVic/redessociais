@@ -6,31 +6,46 @@
 
 <style>
 
-
- 
-.bodydark{
-body {background-color: linear-gradient(#262626, transparent), linear-gradient(to top left, #262626, transparent), linear-gradient(to top right, #262626, transparent);}
+.bodydark {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50%;
 }
-.bodylight{
-body {background-color: linear-gradient(#ffe467, transparent), linear-gradient(to top left, #ffe467, transparent), linear-gradient(to top right, #262626, transparent);}
-}
-
-.bodydark { background-color: #d55442; font-weight: bold; align: justify;/*Verde*/
-/* border: 1px solid #000; */
-color: white;
-padding: 7px 19px;
-text-align: center;
-text-decoration: none;
-text-shadow: 0 0 3px #000000;
-font-size: 16px;
-margin: 4px 2px;
-cursor: pointer;
-border-radius: 10px rgba(0,0,0,0.5);
-margin:0 1em 0 0;
- }
-.button1:hover{
+.bodylight:hover{
     border-color:#e6b800;
 }
+<!-- .bodydark{
+body {background-color: linear-gradient(#262626, transparent), linear-gradient(to top left, #262626, transparent), linear-gradient(to top right, #262626, transparent);}
+} -->
+
+ 
+.bodylight {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.bodylight:hover{
+    border-color:#e6b800;
+}
+<!-- .bodylight{
+body {background-color: linear-gradient(#ffe467, transparent), linear-gradient(to top left, #ffe467, transparent), linear-gradient(to top right, #262626, transparent);}
+} -->
  
 .button1 { background-color: #d55442; font-weight: bold; align: justify;/*Verde*/
 /* border: 1px solid #000; */
@@ -378,11 +393,11 @@ margin:0 1em 0 0;
 <table align="top, right">
 <tr>
 <td><!-- BOTÕES DOAR -->
-<form target="_blank" align="justify"><button type="submit" formaction="https://twitter.com/LinuxPovaoTV" class="twitter">TWITTER</button>
+<form target="_blank" align="justify"><button type="submit" formaction="https://twitter.com/LinuxPovaoTV" class="bodydark">ESCURO</button>
 </form><text>  </text></td>
 
 <td><!-- BOTÕES DOAR -->
-<form target="_blank" align="justify"><button type="submit" formaction="https://twitter.com/LinuxPovaoTV" class="twitter">TWITTER</button>
+<form target="_blank" align="justify"><button type="submit" formaction="https://twitter.com/LinuxPovaoTV" class="bodylight">CLARO</button>
 </form><text>  </text></td> 
 
 </tr>
