@@ -4,12 +4,12 @@
 
 
 <!-- redirecionar pra qualquer URL -->
-<script> location.href="index.html#inicio"; </script>
+<!-- <script> location.href="index.html#inicio"; </script> -->
 
 
-<title></title>
+<title>CONTATOS SOCIAIS E DEMAIS LINKS</title>
 </head>
 <body>
-
+<br /><center><a href="index.html#inicio" title="Home"><b>CONTATOS SOCIAIS E DEMAIS LINKS</b></a></center>
 </body>
 </html>
