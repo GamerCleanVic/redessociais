@@ -3,6 +3,31 @@
    <head>
       <title>REDES SOCIAIS E LINKS</title>
 <link rel="icon" href="LPperfilYTx800.png" type="image/png" sizes="16x16">
+    
+<!-- Função Troca BG Site -->
+<style type="text/css">
+<!--
+.bg1{
+background-color: linear-gradient(#262626, transparent), linear-gradient(to top left, #262626, transparent), linear-gradient(to top right, #262626, transparent);
+}
+.bg2{
+background-color: linear-gradient(#ffe467, transparent), linear-gradient(to top left, #ffe467, transparent), linear-gradient(to top right, #262626, transparent);
+}
+-->
+</style>
+<script language="javascript" type="text/javascript">
+<!--
+function mudar(){
+var obj=document.getElementById('body');
+if(obj.className=='bg2'){
+	obj.className='bg1';
+}else{
+	obj.className='bg2';
+ }
+}
+//-->
+</script>
+    
 
 <style>
 
@@ -27,9 +52,6 @@ body {
     border-color:#e6b800;
     background-color: #f1dc86;
     color: green;
-}
-#bodydark{ id: bodydark;
-body {background-color: linear-gradient(#262626, transparent), linear-gradient(to top left, #262626, transparent), linear-gradient(to top right, #262626, transparent);}
 }
 /* unvisited link
 .bodylight:link {
@@ -58,9 +80,6 @@ body {background-color: linear-gradient(#262626, transparent), linear-gradient(t
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 50%;
-}
-#bodylight{ id: bodylight;
-body {background-color: linear-gradient(#ffe467, transparent), linear-gradient(to top left, #ffe467, transparent), linear-gradient(to top right, #262626, transparent);}
 }
 .bodylight:hover{
     border-color:#e6b800;
@@ -297,7 +316,7 @@ margin:0 1em 0 0;
 
 </head>
 
-<body>
+<body id="body" class="bg1">
 <p align="center">
 <img src="https://raw.githubusercontent.com/GamerCleanVic/redessociais/gh-pages/laptop.jpg" width="720" alt="Atari VCS" >
 </p>
@@ -422,22 +441,14 @@ margin:0 1em 0 0;
 
 <p align="center">
 <table align="top, right">
-<tr>
-<td><!-- BOTÕES DOAR -->
-<form target="_blank" align="justify"><button type="submit" formaction="https://twitter.com/LinuxPovaoTV" class="bodydark">ESCURO</button>
-</form><text>  </text></td>
-
-<td><!-- BOTÕES DOAR -->
-<form target="_blank" align="justify"><button type="submit" formaction="https://twitter.com/LinuxPovaoTV" class="bodylight">CLARO</button>
-</form><text>  </text></td> 
+<tr 
 
 <td><!-- BOTÕES DOAR --> 
-<button onclick="myFunction()" class="bodylight">LIGHT</button>
-<script>
-function myFunction() {
-  document.getElementById("bodylight").innerHTML = "Pronto";
-}
-</script>
+<button onclick="mudar();" formaction="#" class="bodylight" id="bg1">ESCURO</button>
+</form><text>  </text></td>
+
+<td><!-- BOTÕES DOAR --> 
+<button onclick="mudar();" formaction="#" class="bodylight" id="bg2">CLARO</button>
 </form><text>  </text></td>
  
 </tr>
