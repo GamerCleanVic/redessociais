@@ -432,7 +432,12 @@ margin:0 1em 0 0;
 </form><text>  </text></td> 
 
 <td><!-- BOTÕES DOAR --> 
-<button type="reset" value="Reset" id="bodylight" class="bodylight">LIGHT</button>
+<button onclick="myFunction()" class="bodylight">LIGHT</button>
+<script>
+function myFunction() {
+  document.getElementById("bodylight").innerHTML = "myFunction()";
+}
+</script>
 </form><text>  </text></td>
  
 </tr>
