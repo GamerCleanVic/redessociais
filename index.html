@@ -28,9 +28,9 @@ body {
     background-color: #f1dc86;
     color: green;
 }
-/* .bodydark{
+#bodydark{
 body {background-color: linear-gradient(#262626, transparent), linear-gradient(to top left, #262626, transparent), linear-gradient(to top right, #262626, transparent);}
-} */
+}
 /* unvisited link
 .bodylight:link {
   color: green;
@@ -38,12 +38,12 @@ body {background-color: linear-gradient(#262626, transparent), linear-gradient(t
 /* visited link */
 .bodydark:visited {
   background-color: #993399;
-  color: green;
+  color: #993399;
 }
 /* selected link */
 .bodydark:active {
   background-color: #f1dc86;
-  color: green;
+  color: #806600;
 }
  
 .bodylight { hover: border-color: #e6b800; background-color: #f1dc86;
@@ -59,9 +59,9 @@ body {background-color: linear-gradient(#262626, transparent), linear-gradient(t
   cursor: pointer;
   border-radius: 50%;
 }
-/* .bodylight{
+#bodylight{
 body {background-color: linear-gradient(#ffe467, transparent), linear-gradient(to top left, #ffe467, transparent), linear-gradient(to top right, #262626, transparent);}
-} */
+}
 .bodylight:hover{
     border-color:#e6b800;
     background-color: #f1dc86;
@@ -70,12 +70,12 @@ body {background-color: linear-gradient(#ffe467, transparent), linear-gradient(t
 /* visited link */
 .bodylight:visited {
   background-color: #993399;
-  color: green;
+  color: white;
 }
 /* selected link */
 .bodylight:active {
   background-color: #f1dc86;
-  color: yellow;
+  color: #806600;
 }
  
 .button1 { background-color: #d55442; font-weight: bold; align: justify;/*Verde*/
@@ -431,6 +431,10 @@ margin:0 1em 0 0;
 <form target="_blank" align="justify"><button type="submit" formaction="https://twitter.com/LinuxPovaoTV" class="bodylight">CLARO</button>
 </form><text>  </text></td> 
 
+<td><!-- BOTÕES DOAR --> 
+<button type="reset" value="Reset" id="bodylight" class="bodylight">LIGHT</button>
+</form><text>  </text></td>
+ 
 </tr>
 </table>
 </p>
