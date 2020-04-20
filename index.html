@@ -10,7 +10,7 @@ body {
   background-color: #333333;
 }
  
-.bodydark { hover: border-color: #e6b800; background-color: #f1dc86;
+.bodydark {
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
@@ -28,7 +28,7 @@ body {
     background-color: #f1dc86;
     color: green;
 }
-#bodydark{
+#bodydark{ id: bodydark;
 body {background-color: linear-gradient(#262626, transparent), linear-gradient(to top left, #262626, transparent), linear-gradient(to top right, #262626, transparent);}
 }
 /* unvisited link
@@ -46,7 +46,7 @@ body {background-color: linear-gradient(#262626, transparent), linear-gradient(t
   color: #806600;
 }
  
-.bodylight { hover: border-color: #e6b800; background-color: #f1dc86;
+.bodylight { 
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
@@ -59,7 +59,7 @@ body {background-color: linear-gradient(#262626, transparent), linear-gradient(t
   cursor: pointer;
   border-radius: 50%;
 }
-#bodylight{
+#bodylight{ id: bodylight;
 body {background-color: linear-gradient(#ffe467, transparent), linear-gradient(to top left, #ffe467, transparent), linear-gradient(to top right, #262626, transparent);}
 }
 .bodylight:hover{
@@ -435,7 +435,7 @@ margin:0 1em 0 0;
 <button onclick="myFunction()" class="bodylight">LIGHT</button>
 <script>
 function myFunction() {
-  document.getElementById("bodylight").innerHTML = "myFunction()";
+  document.getElementById("bodylight").innerHTML = "Pronto";
 }
 </script>
 </form><text>  </text></td>
