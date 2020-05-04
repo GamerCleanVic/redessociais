@@ -9,10 +9,7 @@
 <style type="text/css">
 
 .bg1{
-background-color: linear-gradient(#262626, transparent), linear-gradient(to top left, #262626, transparent), linear-gradient(to top right, #262626, transparent);
-}
-.bg2{
-background-color: linear-gradient(#ffe467, transparent), linear-gradient(to top left, #ffe467, transparent), linear-gradient(to top right, #262626, transparent);
+<a href="javascript:void(0);" onclick="retheme()" title="Change Theme" class="w3-button w3-bar-item topnav-icons fa fa-adjust" style="font-size:28px;margin-top:-2px"></a>
 }
 
 </style>
@@ -20,10 +17,10 @@ background-color: linear-gradient(#ffe467, transparent), linear-gradient(to top 
 
 function mudar(){
 var obj=document.getElementById('body');
-if(obj.className=='bg2'){
+if(obj.className=='bg1'){
 	obj.className='bg1';
 }else{
-	obj.className='bg2';
+	return(0);
  }
 }
 
