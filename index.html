@@ -7,6 +7,43 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <!-- Função Troca BG Site -->  
 
+	   
+<!-- Theme Functions JS; Author: Hindi Tutor -->
+<script type='text/javascript'>
+//<![CDATA[
+function retheme() {
+  var cc = document.body.className;
+  if (cc.indexOf("darktheme") > -1) {
+    document.body.className = cc.replace("darktheme", "");
+    if (opener) {opener.document.body.className = cc.replace("darktheme", "");}
+    localStorage.setItem("preferredmode", "light");
+  } else {
+    document.body.className += " darktheme";
+    if (opener) {opener.document.body.className += " darktheme";}
+    localStorage.setItem("preferredmode", "dark");
+  }
+}
+(
+function setThemeMode() {
+  var x = localStorage.getItem("preferredmode");
+  if (x == "dark") {
+    document.body.className += " darktheme";
+  }
+})();
+//]]>
+</script>	   
+
+<!-- Author: Hindi Tutor -->
+<!-- theme switch is a button icon adjust this as your icon stylesheet -->
+#theme-switch{font-size:20px;position:absolute;top:0;right:35px;z-index:19}
+<!-- Here is your stylesheet for dark mode editd these colors and style name except body darktheme -->
+body.darktheme{color:#fff;background-color:#000}
+body.darktheme .your-element-name{color:#fff;background-color:#000}
+body.darktheme .lin-element-name a{color:#fff;background-color:#000}
+body.darktheme #your-element-name{color:#fff;background-color:#000}
+body.darktheme your-element-name ul li a{color:#fff;background-color:#000}
+
+	   
 <style>
 
 /* body {
@@ -481,11 +518,10 @@ margin:0 1em 0 0;
 <table >
 <tr 
 
-<td><!-- BOTÕES DOAR -->
- 
-<button ><script><a href="javascript:void(0);" onclick="retheme()" title="Change Theme" class="w3-button w3-bar-item topnav-icons fa fa-adjust" style="font-size:28px;margin-top:-2px">MUDAR COR</a></script></button>
-
-</form><text>  </text></td>
+<br />
+<div id='theme-switch' align="right">
+<a class='fa fa-adjust' href='javascript:void(0);' onclick='retheme()' title='Change Theme'/>
+    </div>
  
 </tr>
 </table>
