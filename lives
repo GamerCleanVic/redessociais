@@ -420,7 +420,8 @@ margin:0 1em 0 0;
   <div id="navbar-right">
     <a href="index.html#logo">HOME</a>
     <a href="doar.html#doar">DOAR / DONATE</a>
-    <a class="active" href="redes.html#redes" id="redes">REDES SOCIAIS</a>
+    <a href="redes.html#redes" id="redes">REDES SOCIAIS</a>
+    <a class="active" href="lives.html#lives">LIVES</a>
   </div>
 </div>
  
@@ -435,7 +436,7 @@ margin:0 1em 0 0;
 
 <br /><br />
 <h1 align="center" id="inicio" ><font color="#d9d9d9"><b>ESSAS SÃO NOSSAS REDES SOCIAIS, CLIQUE E INSCREVA-SE À VONTADE</b></font></h1>
-<p align="center">                       
+<p align="center" id="lives">                       
 <table align="center">
 <tr>
 <td><!-- BOTÕES DOAR -->
