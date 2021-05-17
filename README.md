@@ -6,5 +6,5 @@
 
 <P>
 <text align="justify" font-size="14px"><b>ARQUIVOS GH-PAGES DO REPOSITÓRIO EM LICENÇA GPL3 PARA SER UTILIZADO DE ACORDO COM ESTA LICENÇA</b></text></br>
-<a href="https://github.com/GamerCleanVic/redessociais/tree/gh-pages" type="button" style:"background-color: darkgreen; color: white;border-color:darkgreen;" hover:"background-color: white; color: darkgreen;" alt="SITE LINUX POVÃO TV" target="_blank"><b>LINK DOS AQRQUIVOS</b></a>
+<a href="https://github.com/GamerCleanVic/redessociais/tree/gh-pages" type="button" style:"background-color: darkgreen; color: white;border-color:darkgreen;" hover:"background-color: white; color: darkgreen;" alt="SITE LINUX POVÃO TV" target="_blank"><b>LINK DOS ARQUIVOS</b></a>
 </p>
